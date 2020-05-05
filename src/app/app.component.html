@@ -1,0 +1,12 @@
+
+<ul>
+
+	<li *ngFor="let x of arr[0] | keyvalue">
+		{{x.key}} <input (keyup)="onInChanhe($event,x)">
+  </li>
+
+	<li *ngFor="let x of arr" [attr.data-id]="x.indexCode">
+		{{x.indexCode}} , {{x.desc}}
+	</li>
+
+</ul>
