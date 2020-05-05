@@ -8,7 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class AppComponent implements OnInit {
   arr: any[] = [];
 
-  filter: Filter[] = [];
+  filter: Filter[] = []; 
 
   ngOnInit() {
     this.arr = [
